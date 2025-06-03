@@ -44,4 +44,6 @@ The way I have set it up is that all of the data is extracted from results dicti
 
 # How to run the code
 
-python SparkDTLR.py kdd.data kdd.schema . [seed number]
+Call the following line in your terminal:
+
+`python SparkDTLR.py kdd.data kdd.schema . <seed number>`
