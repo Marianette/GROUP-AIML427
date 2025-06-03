@@ -41,3 +41,7 @@ The model coefficients are a sparse vector, which is a tuple with three entries.
 # Writing results to file
 
 The way I have set it up is that all of the data is extracted from results dictionaries for each run, and flattened into one text. If you want to observe how the file is written in your local space, you can easily implement a native python file writer. But this doesn't work on the Spark cluster, because it uses the HDFS, and ends up getting the spaces mixed up. We have to use Spark methods to write to text files, but obviously, those won't work in your local space, so I have commented them out for now.
+
+# How to run the code
+
+python SparkDTLR.py kdd.data kdd.schema . [seed number]
