@@ -19,8 +19,6 @@ This project evaluates two classifiers, Logistic Regression (LR) and Decision Tr
 ## Files
 
 * `SparkDTLR.py`: Main script that runs both classifiers across 10 seeds and outputs evaluation metrics.
-* `SparkLogisticRegression.py`: (optional component script)
-* `SparkDecisionTree.py`: (optional component script)
 * `kdd.data`: Input dataset file.
 * `kdd.schema`: Schema file describing attribute types.
 * `SetupSparkClasspath.sh`: Shell script for Spark classpath setup.
